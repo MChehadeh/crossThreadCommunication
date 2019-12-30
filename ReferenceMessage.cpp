@@ -3,7 +3,7 @@
     msg_type ReferenceMessage::getType(){
         return msg_type::reference;
     }
-    volatile const int ReferenceMessage::getSize(){
+    const int ReferenceMessage::getSize(){
         return 4;
     }
     float ReferenceMessage::getData(){

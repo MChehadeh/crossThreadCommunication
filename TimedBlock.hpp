@@ -1,12 +1,13 @@
 // Version: 2.0
 // Author: M. Chehadeh
 // Date: 29 Dec 2019
-// Release note: timed block has timer responsibility within it. Looper.hpp is phased out.
+// Release note: timed block has timer responsibility within it. Looper.hpp is phased out. TimedBlock is inheriting from Block
 
 #pragma once
 #include "common_types.hpp"
 #include "Timer.hpp"
-class TimedBlock {
+#include "Block.hpp"
+class TimedBlock : public Block { //TODO this should extend 
 
 private:
     block_frequency _frequency;

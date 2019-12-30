@@ -3,12 +3,11 @@
 class ReferenceMessage : public DataMessage {
 
 private:
-    msg_type _type;
     float _data;
 
 public:
     msg_type getType();
-    volatile const int getSize();
+    const int getSize();
     float getData();
     
     ReferenceMessage();
