@@ -1,0 +1,3 @@
+/home/chehadeh/multithread_pattern/CMakeFiles/rebuild_cache.dir
+/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir
+/home/chehadeh/multithread_pattern/CMakeFiles/edit_cache.dir
