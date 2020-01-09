@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/chehadeh/multithread_pattern/MsgEmitter.cpp" "/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir/MsgEmitter.cpp.o"
   "/home/chehadeh/multithread_pattern/MsgReceiver.cpp" "/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o"
+  "/home/chehadeh/multithread_pattern/PositionMsg.cpp" "/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o"
+  "/home/chehadeh/multithread_pattern/Reference.cpp" "/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir/Reference.cpp.o"
   "/home/chehadeh/multithread_pattern/ReferenceMessage.cpp" "/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o"
   "/home/chehadeh/multithread_pattern/TimedBlock.cpp" "/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o"
   "/home/chehadeh/multithread_pattern/Timer.cpp" "/home/chehadeh/multithread_pattern/CMakeFiles/multi_thread_app.dir/Timer.cpp.o"

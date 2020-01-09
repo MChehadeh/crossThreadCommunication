@@ -105,9 +105,57 @@ CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o.provides: CMakeFiles/multi_thr
 CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o.provides.build: CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o
 
 
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o: PositionMsg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o -c /home/chehadeh/multithread_pattern/PositionMsg.cpp
+
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chehadeh/multithread_pattern/PositionMsg.cpp > CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.i
+
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chehadeh/multithread_pattern/PositionMsg.cpp -o CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.s
+
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.requires:
+
+.PHONY : CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.requires
+
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.provides: CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.provides.build
+.PHONY : CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.provides
+
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.provides.build: CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o
+
+
+CMakeFiles/multi_thread_app.dir/Reference.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
+CMakeFiles/multi_thread_app.dir/Reference.cpp.o: Reference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/multi_thread_app.dir/Reference.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/Reference.cpp.o -c /home/chehadeh/multithread_pattern/Reference.cpp
+
+CMakeFiles/multi_thread_app.dir/Reference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_thread_app.dir/Reference.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chehadeh/multithread_pattern/Reference.cpp > CMakeFiles/multi_thread_app.dir/Reference.cpp.i
+
+CMakeFiles/multi_thread_app.dir/Reference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_thread_app.dir/Reference.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chehadeh/multithread_pattern/Reference.cpp -o CMakeFiles/multi_thread_app.dir/Reference.cpp.s
+
+CMakeFiles/multi_thread_app.dir/Reference.cpp.o.requires:
+
+.PHONY : CMakeFiles/multi_thread_app.dir/Reference.cpp.o.requires
+
+CMakeFiles/multi_thread_app.dir/Reference.cpp.o.provides: CMakeFiles/multi_thread_app.dir/Reference.cpp.o.requires
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/Reference.cpp.o.provides.build
+.PHONY : CMakeFiles/multi_thread_app.dir/Reference.cpp.o.provides
+
+CMakeFiles/multi_thread_app.dir/Reference.cpp.o.provides.build: CMakeFiles/multi_thread_app.dir/Reference.cpp.o
+
+
 CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
 CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o: ReferenceMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o -c /home/chehadeh/multithread_pattern/ReferenceMessage.cpp
 
 CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.i: cmake_force
@@ -131,7 +179,7 @@ CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
 CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o: TimedBlock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o -c /home/chehadeh/multithread_pattern/TimedBlock.cpp
 
 CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.i: cmake_force
@@ -155,7 +203,7 @@ CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o.provides.build: CMakeFiles/mult
 
 CMakeFiles/multi_thread_app.dir/Timer.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
 CMakeFiles/multi_thread_app.dir/Timer.cpp.o: Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/multi_thread_app.dir/Timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/multi_thread_app.dir/Timer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/Timer.cpp.o -c /home/chehadeh/multithread_pattern/Timer.cpp
 
 CMakeFiles/multi_thread_app.dir/Timer.cpp.i: cmake_force
@@ -179,7 +227,7 @@ CMakeFiles/multi_thread_app.dir/Timer.cpp.o.provides.build: CMakeFiles/multi_thr
 
 CMakeFiles/multi_thread_app.dir/main.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
 CMakeFiles/multi_thread_app.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/multi_thread_app.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/multi_thread_app.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/main.cpp.o -c /home/chehadeh/multithread_pattern/main.cpp
 
 CMakeFiles/multi_thread_app.dir/main.cpp.i: cmake_force
@@ -203,7 +251,7 @@ CMakeFiles/multi_thread_app.dir/main.cpp.o.provides.build: CMakeFiles/multi_thre
 
 CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
 CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.o: thread_initial_unit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.o -c /home/chehadeh/multithread_pattern/thread_initial_unit.cpp
 
 CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.i: cmake_force
@@ -227,7 +275,7 @@ CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.o.provides.build: CMakeF
 
 CMakeFiles/multi_thread_app.dir/thread_terminal_unit.cpp.o: CMakeFiles/multi_thread_app.dir/flags.make
 CMakeFiles/multi_thread_app.dir/thread_terminal_unit.cpp.o: thread_terminal_unit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/multi_thread_app.dir/thread_terminal_unit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/multi_thread_app.dir/thread_terminal_unit.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_thread_app.dir/thread_terminal_unit.cpp.o -c /home/chehadeh/multithread_pattern/thread_terminal_unit.cpp
 
 CMakeFiles/multi_thread_app.dir/thread_terminal_unit.cpp.i: cmake_force
@@ -253,6 +301,8 @@ CMakeFiles/multi_thread_app.dir/thread_terminal_unit.cpp.o.provides.build: CMake
 multi_thread_app_OBJECTS = \
 "CMakeFiles/multi_thread_app.dir/MsgEmitter.cpp.o" \
 "CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o" \
+"CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o" \
+"CMakeFiles/multi_thread_app.dir/Reference.cpp.o" \
 "CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o" \
 "CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o" \
 "CMakeFiles/multi_thread_app.dir/Timer.cpp.o" \
@@ -265,6 +315,8 @@ multi_thread_app_EXTERNAL_OBJECTS =
 
 multi_thread_app: CMakeFiles/multi_thread_app.dir/MsgEmitter.cpp.o
 multi_thread_app: CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o
+multi_thread_app: CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o
+multi_thread_app: CMakeFiles/multi_thread_app.dir/Reference.cpp.o
 multi_thread_app: CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o
 multi_thread_app: CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o
 multi_thread_app: CMakeFiles/multi_thread_app.dir/Timer.cpp.o
@@ -280,7 +332,7 @@ multi_thread_app: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 multi_thread_app: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 multi_thread_app: /usr/lib/x86_64-linux-gnu/libpthread.so
 multi_thread_app: CMakeFiles/multi_thread_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable multi_thread_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chehadeh/multithread_pattern/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable multi_thread_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi_thread_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -290,6 +342,8 @@ CMakeFiles/multi_thread_app.dir/build: multi_thread_app
 
 CMakeFiles/multi_thread_app.dir/requires: CMakeFiles/multi_thread_app.dir/MsgEmitter.cpp.o.requires
 CMakeFiles/multi_thread_app.dir/requires: CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o.requires
+CMakeFiles/multi_thread_app.dir/requires: CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o.requires
+CMakeFiles/multi_thread_app.dir/requires: CMakeFiles/multi_thread_app.dir/Reference.cpp.o.requires
 CMakeFiles/multi_thread_app.dir/requires: CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o.requires
 CMakeFiles/multi_thread_app.dir/requires: CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o.requires
 CMakeFiles/multi_thread_app.dir/requires: CMakeFiles/multi_thread_app.dir/Timer.cpp.o.requires

@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/chehadeh/multithread_pattern/Block.hpp
+common_types.hpp
+/home/chehadeh/multithread_pattern/common_types.hpp
+iostream
+-
+DataMessage.hpp
+/home/chehadeh/multithread_pattern/DataMessage.hpp
+MsgReceiver.hpp
+/home/chehadeh/multithread_pattern/MsgReceiver.hpp
+
 /home/chehadeh/multithread_pattern/DataMessage.hpp
 list
 -
@@ -36,6 +46,26 @@ common_types.hpp
 DataMessage.hpp
 /home/chehadeh/multithread_pattern/DataMessage.hpp
 
+/home/chehadeh/multithread_pattern/PositionMsg.cpp
+PositionMsg.hpp
+/home/chehadeh/multithread_pattern/PositionMsg.hpp
+
+/home/chehadeh/multithread_pattern/PositionMsg.hpp
+DataMessage.hpp
+/home/chehadeh/multithread_pattern/DataMessage.hpp
+common_types.hpp
+/home/chehadeh/multithread_pattern/common_types.hpp
+
+/home/chehadeh/multithread_pattern/Reference.cpp
+Reference.hpp
+/home/chehadeh/multithread_pattern/Reference.hpp
+
+/home/chehadeh/multithread_pattern/Reference.hpp
+common_types.hpp
+/home/chehadeh/multithread_pattern/common_types.hpp
+Block.hpp
+/home/chehadeh/multithread_pattern/Block.hpp
+
 /home/chehadeh/multithread_pattern/ReferenceMessage.cpp
 ReferenceMessage.hpp
 /home/chehadeh/multithread_pattern/ReferenceMessage.hpp
@@ -53,6 +83,8 @@ common_types.hpp
 /home/chehadeh/multithread_pattern/common_types.hpp
 Timer.hpp
 /home/chehadeh/multithread_pattern/Timer.hpp
+Block.hpp
+/home/chehadeh/multithread_pattern/Block.hpp
 
 /home/chehadeh/multithread_pattern/Timer.cpp
 Timer.hpp

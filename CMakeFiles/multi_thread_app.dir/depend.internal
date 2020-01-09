@@ -12,12 +12,27 @@ CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o
  /home/chehadeh/multithread_pattern/MsgReceiver.cpp
  /home/chehadeh/multithread_pattern/MsgReceiver.hpp
  /home/chehadeh/multithread_pattern/common_types.hpp
+CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o
+ /home/chehadeh/multithread_pattern/DataMessage.hpp
+ /home/chehadeh/multithread_pattern/PositionMsg.cpp
+ /home/chehadeh/multithread_pattern/PositionMsg.hpp
+ /home/chehadeh/multithread_pattern/common_types.hpp
+CMakeFiles/multi_thread_app.dir/Reference.cpp.o
+ /home/chehadeh/multithread_pattern/Block.hpp
+ /home/chehadeh/multithread_pattern/DataMessage.hpp
+ /home/chehadeh/multithread_pattern/MsgReceiver.hpp
+ /home/chehadeh/multithread_pattern/Reference.cpp
+ /home/chehadeh/multithread_pattern/Reference.hpp
+ /home/chehadeh/multithread_pattern/common_types.hpp
 CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o
  /home/chehadeh/multithread_pattern/DataMessage.hpp
  /home/chehadeh/multithread_pattern/ReferenceMessage.cpp
  /home/chehadeh/multithread_pattern/ReferenceMessage.hpp
  /home/chehadeh/multithread_pattern/common_types.hpp
 CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o
+ /home/chehadeh/multithread_pattern/Block.hpp
+ /home/chehadeh/multithread_pattern/DataMessage.hpp
+ /home/chehadeh/multithread_pattern/MsgReceiver.hpp
  /home/chehadeh/multithread_pattern/TimedBlock.cpp
  /home/chehadeh/multithread_pattern/TimedBlock.hpp
  /home/chehadeh/multithread_pattern/Timer.hpp
@@ -26,6 +41,7 @@ CMakeFiles/multi_thread_app.dir/Timer.cpp.o
  /home/chehadeh/multithread_pattern/Timer.cpp
  /home/chehadeh/multithread_pattern/Timer.hpp
 CMakeFiles/multi_thread_app.dir/main.cpp.o
+ /home/chehadeh/multithread_pattern/Block.hpp
  /home/chehadeh/multithread_pattern/DataMessage.hpp
  /home/chehadeh/multithread_pattern/MsgEmitter.hpp
  /home/chehadeh/multithread_pattern/MsgReceiver.hpp
@@ -37,6 +53,7 @@ CMakeFiles/multi_thread_app.dir/main.cpp.o
  /home/chehadeh/multithread_pattern/thread_initial_unit.hpp
  /home/chehadeh/multithread_pattern/thread_terminal_unit.hpp
 CMakeFiles/multi_thread_app.dir/thread_initial_unit.cpp.o
+ /home/chehadeh/multithread_pattern/Block.hpp
  /home/chehadeh/multithread_pattern/DataMessage.hpp
  /home/chehadeh/multithread_pattern/MsgEmitter.hpp
  /home/chehadeh/multithread_pattern/MsgReceiver.hpp

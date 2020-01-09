@@ -177,6 +177,60 @@ MsgReceiver.cpp.s:
 	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.s
 .PHONY : MsgReceiver.cpp.s
 
+PositionMsg.o: PositionMsg.cpp.o
+
+.PHONY : PositionMsg.o
+
+# target to build an object file
+PositionMsg.cpp.o:
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o
+.PHONY : PositionMsg.cpp.o
+
+PositionMsg.i: PositionMsg.cpp.i
+
+.PHONY : PositionMsg.i
+
+# target to preprocess a source file
+PositionMsg.cpp.i:
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.i
+.PHONY : PositionMsg.cpp.i
+
+PositionMsg.s: PositionMsg.cpp.s
+
+.PHONY : PositionMsg.s
+
+# target to generate assembly for a file
+PositionMsg.cpp.s:
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.s
+.PHONY : PositionMsg.cpp.s
+
+Reference.o: Reference.cpp.o
+
+.PHONY : Reference.o
+
+# target to build an object file
+Reference.cpp.o:
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/Reference.cpp.o
+.PHONY : Reference.cpp.o
+
+Reference.i: Reference.cpp.i
+
+.PHONY : Reference.i
+
+# target to preprocess a source file
+Reference.cpp.i:
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/Reference.cpp.i
+.PHONY : Reference.cpp.i
+
+Reference.s: Reference.cpp.s
+
+.PHONY : Reference.s
+
+# target to generate assembly for a file
+Reference.cpp.s:
+	$(MAKE) -f CMakeFiles/multi_thread_app.dir/build.make CMakeFiles/multi_thread_app.dir/Reference.cpp.s
+.PHONY : Reference.cpp.s
+
 ReferenceMessage.o: ReferenceMessage.cpp.o
 
 .PHONY : ReferenceMessage.o
@@ -354,6 +408,12 @@ help:
 	@echo "... MsgReceiver.o"
 	@echo "... MsgReceiver.i"
 	@echo "... MsgReceiver.s"
+	@echo "... PositionMsg.o"
+	@echo "... PositionMsg.i"
+	@echo "... PositionMsg.s"
+	@echo "... Reference.o"
+	@echo "... Reference.i"
+	@echo "... Reference.s"
 	@echo "... ReferenceMessage.o"
 	@echo "... ReferenceMessage.i"
 	@echo "... ReferenceMessage.s"

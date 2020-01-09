@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/multi_thread_app.dir/MsgEmitter.cpp.o"
   "CMakeFiles/multi_thread_app.dir/MsgReceiver.cpp.o"
+  "CMakeFiles/multi_thread_app.dir/PositionMsg.cpp.o"
+  "CMakeFiles/multi_thread_app.dir/Reference.cpp.o"
   "CMakeFiles/multi_thread_app.dir/ReferenceMessage.cpp.o"
   "CMakeFiles/multi_thread_app.dir/TimedBlock.cpp.o"
   "CMakeFiles/multi_thread_app.dir/Timer.cpp.o"

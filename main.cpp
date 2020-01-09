@@ -9,7 +9,7 @@ using boost::mutex;
 
 const int THREAD_COUNT = 10;
 
-void worker(thread_initial_unit* timed_block) {
+void worker(TimedBlock* timed_block) {
     timed_block->tickTimer();
     cout<<"hasLoopTimeElapsed:"<< timed_block->hasLoopTimeElapsed()<<endl;
     cout<<"getLoopRemainingMicroSec:"<< timed_block->getLoopRemainingMicroSec()<<endl;

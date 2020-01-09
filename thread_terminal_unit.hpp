@@ -14,7 +14,7 @@ private:
     
 public:
     thread_terminal_unit();
-    void receive_msg_data(DataMessage* t_msg); 
+    void receive_msg_data(DataMessage* t_msg) override; 
     DataMessage* clone_last_message();
     void lock_mutex();
     void unlock_mutex();

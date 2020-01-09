@@ -7,7 +7,7 @@
 #include "common_types.hpp"
 #include "Timer.hpp"
 #include "Block.hpp"
-class TimedBlock : public Block { //TODO this should extend 
+class TimedBlock {//: public Block { //TODO this should extend 
 
 private:
     block_frequency _frequency;
